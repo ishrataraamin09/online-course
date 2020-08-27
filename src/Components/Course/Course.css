@@ -1,0 +1,19 @@
+.courses{
+    border-bottom: 1px solid lightgray;
+    height: 200px;
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: #EAF0F1;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.course-name{
+    color: lightseagreen;
+    font-size: 40px;
+}
+
+.individual-course{
+    margin-left: 30px;
+    margin-top: 10px;
+}

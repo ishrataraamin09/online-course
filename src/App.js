@@ -1,14 +1,14 @@
 import React, {useState, useEffect,} from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header/Header';
+import Window from './Components/Window/Window';
 
 function App() {
+
   return (
-    <div className="App">
-      <h1 style={{color:'coral'}}>Welcome to Online Academy.</h1>
-      <header className="App-header">
-        
-      </header>
+    <div>
+      <Header></Header>
+      <Window></Window>
     </div>
   );
 }

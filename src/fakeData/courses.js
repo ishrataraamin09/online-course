@@ -1,93 +1,108 @@
 var courses = [
     {
-        name: 'Physics' ,
+        name: 'Google IT Automation with Python' ,
         id: 1,
-        category: 'Science',
-        totalCourseFee = 200
+        category: 'Computer science and data',
+        price : 59.99 ,
+        seatsAvailable: 10
     } ,
     {
-        name: 'Chemistry' ,
+        name: 'Machine Learning for Analytics MasterTrack' ,
         id: 2,
-        category: 'Science' ,
-        totalCourseFee = 200
+        category: 'Computer science and data' ,
+        price : 60.00 ,
+        seatsAvailable: 7
     } ,
     {
-        name: 'Biology' ,
+        name: 'Computer Vision Basics' ,
         id: 3,
-        category: 'Science',
-        totalCourseFee = 200 
+        category: 'Computer science and data',
+        price : 35.99 ,
+        seatsAvailable: 2
     } ,
     {
-        name: 'Economics' ,
+        name: 'Algorithms, Part I' ,
         id: 4,
-        category: 'Commerce',
-        totalCourseFee = 200 
+        category: 'Computer science and data',
+        price : 35.99 ,
+        seatsAvailable: 8
     } ,
     {
-        name: 'Additional Mathematics' ,
+        name: 'Algorithms, Part II' ,
         id: 5,
-        category: 'General',
-        totalCourseFee = 200
+        category: 'Computer science and data',
+        price : 40.00 ,
+        seatsAvailable: 12
     } ,
     {
-        name: 'English Language' ,
+        name: 'Analysis of Algorithms' ,
         id: 6,
-        category: 'General',
-        totalCourseFee = 200
+        category: 'Computer science and data',
+        price : 29.99 ,
+        seatsAvailable: 3
     } ,
     {
-        name: 'General Mathematics' ,
+        name: 'Introduction to Programming with MATLAB' ,
         id: 7,
-        category: 'General',
-        totalCourseFee = 200
+        category: 'Science and math',
+        price : 59.99 ,
+        seatsAvailable: 10
     } ,
     {
-        name: 'Accounting' ,
+        name: 'Getting Started with AWS Machine Learning' ,
         id: 8,
-        category: 'Commerce',
-        totalCourseFee = 200 
+        category: 'Computer science and data',
+        price : 70.00 ,
+        seatsAvailable: 7
     } ,
     {
-        name: 'Human Biology' ,
+        name: 'Build Your First Android App (Project-Centered Course)' ,
         id: 9,
-        category: 'Pure-Science',
-        totalCourseFee = 200 
+        category: 'Computer science and data',
+        price : 89.99 ,
+        seatsAvailable: 12
     } ,
     {
-        name: 'ICT' ,
+        name: 'Marketing Analytics' ,
         id: 10,
-        category: 'Computer-Science',
-        totalCourseFee = 200 
-    } ,
-    {
-        name: 'Bengali Language' ,
-        id: 11,
-        category: 'Optional',
-        totalCourseFee = 200 
-    } ,
-    {
-        name: 'Social Science' ,
-        id: 12,
-        category: 'Optional' ,
-        totalCourseFee = 200
+        category: 'Business and entrepreneurship',
+        price : 39.99 ,
+        seatsAvailable: 2 
     } ,
     {
         name: 'Computer Architecture & Organisation' ,
+        id: 11,
+        category: 'Computer science and data',
+        price : 40.00 ,
+        seatsAvailable: 2 
+    } ,
+    {
+        name: 'Social Psychology' ,
+        id: 12,
+        category: 'Personal development' ,
+        price : 29.99 ,
+        seatsAvailable: 5
+    } ,
+    {
+        name: 'The Strategy of Content Marketing' ,
         id: 13,
-        category: 'Computer-Science' ,
-        totalCourseFee = 200
+        category: 'Business and entrepreneurship' ,
+        price : 59.99 ,
+        seatsAvailable: 6
     } ,
     {
-        name: 'History' ,
+        name: 'The Language of Design: Form and Meaning' ,
         id: 14,
-        category: 'Optional' ,
-        totalCourseFee = 200
+        category: 'Humanities and language' ,
+        price : 29.99 ,
+        seatsAvailable: 10
     } ,
     {
-        name: 'English Literature' ,
+        name: 'Introduction to Philosophy' ,
         id: 15,
-        category: 'General' ,
-        totalCourseFee = 200
+        category: 'Humanities and language' ,
+        price : 29.99 ,
+        seatsAvailable: 9
     }
 ]
 
